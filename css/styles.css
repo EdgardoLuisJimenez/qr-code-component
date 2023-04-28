@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light_gray: hsl(212, 45%, 89%);
+  --Grayish_blue: hsl(220, 15%, 55%);
+  --Dark_blue: hsl(218, 44%, 22%);
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Light_gray);
+}
+.card {
+  width: 375px;
+  height: 600px;
+  background-color: var(--White);
+  border-radius: 5%;
+}
+figure {
+  width: 90%;
+  height: 60%; 
+  margin: 10px auto;
+}
+figure img {
+  width: 100%;
+  border-radius: 5%;
+}
