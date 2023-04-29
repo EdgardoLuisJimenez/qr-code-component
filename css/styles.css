@@ -28,9 +28,25 @@ body {
 figure {
   width: 90%;
   height: 60%; 
-  margin: 10px auto;
+  margin: 15px auto 0 auto;
 }
 figure img {
   width: 100%;
   border-radius: 5%;
+}
+.text-container {
+  text-align: center;
+  padding: 15px;
+}
+.text-container h1 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  color: var(--Dark_blue);
+  
+}
+.text-container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--Grayish_blue);
 }
